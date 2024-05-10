@@ -1,0 +1,50 @@
+/*Formatear el documento*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.rojo{
+    background-color: rgb(255,0,0);
+}
+.azul{
+    background-color: rgb(0,0,255);
+}
+.verde{
+    background-color: rgb(0,255,0);
+}
+.ancho_10{
+    width: 10%;
+}
+.ancho_20{
+    width: 20%;
+}
+.ancho_25{
+    width: 25%;
+}
+.ancho_30{
+    width: 30%;
+}
+.ancho_50{
+    width: 50%;
+}
+.ancho_75{
+    width: 75%;
+}
+.ancho_80{
+    width: 80%;
+}
+.ancho_90{
+    width: 90%;
+}
+.ancho_100{
+    width: 100%;
+}
+
+.padre_inblock{
+    font-size: 0;
+}
+
+.dis_inblock{
+    display: inline-block;
+    font-size: 15px;
+}
