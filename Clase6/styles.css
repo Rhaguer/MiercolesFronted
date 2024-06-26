@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.carousel-item img {
+    width: 100%; /* Asegura que las imágenes ocupen el 100% del ancho del carrusel */
+    height: auto; /* Mantén la proporción de la imagen */
+  }
+.header, .footer {
+    background-color: #0d7de4; /* Yellow */
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #92b7e4; /* Green */
+}
+
+.nav-link {
+    margin: 0 10px;
+    color: #000000; /* Red */
+}
+
+.nav-link:hover {
+    color: #000000; /* Orange */
+}
+
+.main {
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #FF5722; /* Red */
+}
+
+.card-body {
+    background-color: #FFEB3B; /* Yellow */
+}
+
+.card img {
+    border-bottom: 1px solid #ddd;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #63ee0d; /* Orange */
+}
+
+footer a:hover {
+    color: #8BC34A; /* Green */
+}
+
+.button-primary {
+    background-color: #8BC34A; /* Green */
+    color: white;
+}
+
+.button-primary:hover {
+    background-color: #FF5722; /* Red */
+    color: white;
+}
+
+.extra-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #FFEB3B; /* Yellow */
+    margin-top: 20px;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
