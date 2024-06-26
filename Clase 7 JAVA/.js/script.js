@@ -47,7 +47,7 @@ if (dias <=20){
 
 //BUCLE
 for (let i=0; i < 5; i++){
-    console.log(1numero: +contador);
+    console.log(1numero:  +contador);
 
 }
         
