@@ -114,14 +114,18 @@ boton2.addEventListener("click", function(){
 
 //TRABAJAR CON ARREGLOS
 //PUSH: AGREGA AL FINAL
+
 paises.push("Ecuador");
 console.log(paises);
+
 //POP:QUITAEL ULTIMO DATO
 paises.pop()
 console.log(paises);
+
 //UNSHIFT: AGREGA AL INICIO DEL ARREGLO 
 paises.unshift("Haiti");
 console.log(paises);
+
 //SHIFT: QUITA EL PRIMER DATO 
 paises.shift();
 console.log(paises);
