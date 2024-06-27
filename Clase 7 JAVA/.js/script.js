@@ -54,3 +54,78 @@ for (let i=0; i < 5; i++){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//5 - manipulacion del dom
+// seleccion de elementos 
+let titullo = document.getElementById("Titulo");
+titulo.textContent = "Bienvenidos a inacapppp";
+titulo.style.fontSize = "50px";
+titulo.style.color = "red";
+let parrafo = document.querySelector(".Parrafo");
+parrafo.innerHTML = "<strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, perspiciatis.</strong>"";
+
+let boton = document.getElementById("btnValorTexto");
+boton.addEventListener("click", function(){
+    alert("hicite clik!")
+})
+
+let boton2 = document.getElementById("btnValorTexto");
+let txtnombre = document.getElementById("txtNombre");
+boton2.addEventListener("click", function(){
+    alert("valor: " + txtnombre.value);
+});
+
+//TRABAJAR CON ARREGLOS
+//PUSH: AGREGA AL FINAL
+paises.push("Ecuador");
+console.log(paises);
+//POP:QUITAEL ULTIMO DATO
+paises.pop()
+console.log(paises);
+//UNSHIFT: AGREGA AL INICIO DEL ARREGLO 
+paises.unshift("Haiti");
+console.log(paises);
+//SHIFT: QUITA EL PRIMER DATO 
+paises.shift();
+console.log(paises);
+
+
+
+
